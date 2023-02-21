@@ -1,5 +1,5 @@
 {% set name = "types-first" %}
-{% set version = "2.0.5" %}
+{% set version = "2.0.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-first-{{ version }}.tar.gz
-  sha256: af9e144d9b2039d939237a0486670b22a9907df79d67bdbb3e4cb9f9ead3e5f4
+  sha256: 02b7f74dc9a573872bee37d025003bec84cad1b0b0bdf5199ec712d85d1cfbd2
 
 build:
   number: 0
