@@ -1,15 +1,15 @@
-{% set version = "2.0.5.20240806" %}
+{% set version = "2.0.5.20260408" %}
 
 package:
   name: types-first
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/t/types-first/types-first-{{ version }}.tar.gz
-  sha256: d630f9e7f4816731ec05389ccea80d7668cbf879a9c3fade9e5ad3aa6cece27c
+  url: https://pypi.org/packages/source/t/types-first/types_first-{{ version }}.tar.gz
+  sha256: 9a9e78fa829a17d2f84310f36597d0eb51b3c5e48a3fa39e8f8521948f159c79
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation --disable-pip-version-check
